@@ -25,7 +25,7 @@ app.use('/api/allocation', require('./routes/allocationRoutes'));
 app.get('/api/health', (req, res) => {
   res.json({
     success: true,
-    message: 'Exam Seat Planner API is running',
+message: 'Server is up and running',
     environment: process.env.NODE_ENV,
     timestamp: new Date().toISOString(),
   });
