@@ -28,8 +28,7 @@ const Dashboard = () => {
       <section style={S.hero}>
         <h1 style={S.heroTitle}>College Exam Seat Planner</h1>
         <p style={S.heroSub}>
-          Manage classrooms and allocate seats for exams — minimum rooms, lower floors first.
-        </p>
+Easily manage classrooms and allocate exam seats in seconds.        </p>
       </section>
 
       {/* Stats */}
