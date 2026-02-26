@@ -1,0 +1,24 @@
+{
+  "name": "exam-seat-planner",
+  "version": "1.0.0",
+  "description": "College Exam Seat Planner — MERN Stack (Assignment-3)",
+  "private": true,
+  "scripts": {
+    "install:backend":  "npm install --prefix backend",
+    "install:frontend": "npm install --prefix frontend",
+    "install:all":      "npm run install:backend && npm run install:frontend",
+    "dev:backend":      "npm run dev --prefix backend",
+    "dev:frontend":     "npm start --prefix frontend",
+    "dev":              "concurrently -n \"SERVER,CLIENT\" -c \"cyan,magenta\" \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "build":            "npm run build --prefix frontend",
+    "start":            "npm start --prefix backend"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "author": "Assignment-3",
+  "license": "MIT"
+}
